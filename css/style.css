@@ -1,92 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
 body {
-    margin: 0px 0px 0px 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'PT Sans Narrow', sans-serif;
 }
-header  {
-    width: 100%;
-    padding: 0px 0px;
-    text-align: center;
-    background-color: #32429e;
-    color: #ffffff;
-}
-footer {
-    display: block;
-    width: 100%;
-    padding: 20px 0px;
-    text-align: center;
-    background-color: #32429e;
-    color: #ffffff;
-    position: fixed;
-    bottom: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 1;
-    font-size: 10px;
-}
-h1{
-    padding: 0px 0px;
-    margin: 0px 0px;
-}
-.barsup {
-    float: left;
-    background-color: #000000;
-    width: 99%;
-    height: 30px;
-    text-align: left;
-    font-size: 10px;
-    line-height: 28px;
-    padding-left: 1%;
-}
-.titu {
-    padding-top: 70px;
-    padding-bottom: 40px;
-}
-.menu a{
-    color: #ffffff;
-    font-weight: bold;
-    padding: 10px 20px;
-    display: inline-block;
-    text-decoration: none;
-    border-top: 2px #ffffff solid;
-    border-right: 2px #ffffff solid;
-    border-left: 2px #ffffff solid;
-    border border-radius: 7px 7px 0px 0px;
-}
-.menu a:hover {
-    color: #fff000;
-    border-top: 2px #fff000 solid;
-    border-right: 2px #fff000 solid;
-    border-left: 2px #fff000 solid;
-}
-section {
-    width: 100%;
-}
-.suma   {
+
+#figura {
     width: 300px;
-    padding: 30px;
-    text-align: center;
+    height: 300px;
+    background: cadetblue;
     margin: auto;
-}
-input[type=number] {
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-    border-radius: 10px;
 
 }
-input[type=button] {
-    background-color: #32429e;
-    padding: 20px 40px;
-    color: #ffffff;
-    border: 1px #000 dotted;
-    border-radius: 10px;
-    transition: 0.4s;
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+.container .row{
+    display: flex;
+    margin-top: 100px;
+}
+.container .row .cont-izq{
+    width: 50%;
+    background: #2396bd;
+    padding: 50px;
+    border:1px solid #fbfbfb;
+    text-align: center;
+}
+.container .row .cont-izq h2{
+    color: #fbfbfb;
+}
+.container .row .cont-der{
+    width: 50%;
+    background: #fbfbfb;
+    padding: 50px;
+    border:1px solid #2396bd;
+    text-align: center;
+}
+.container .row .cont-der h2{
+    color: #2396bd;
 }
 
-input[type=button]:hover {
-    background-color: #fff ;
-    color: #32429e;
-    padding: 20px 40px;
-    border: none;
-    font-weight: bold ;
+.container .row .cont-izq .cont-botones button{
+    padding: 8px 15px;
+    margin: 20px 8px;
+    background: #fff;
+    color: #2396bd;
+    border: 1px solid #fff ;
+    font-weight: 600;
+    cursor: pointer;
 }
+.container .row .cont-der #figura{
+    width: 200px;
+    height: 200px;
+    margin: 100px auto;
+    transition: .4s;
+    background: #08526b;
+}
+
+/*  Variantes de clases */
+.container .row .cont-der #figura.circulo {
+    transition: .4s;
+    border-radius: 50%;
+    background: red;
+}
+
+.container .row .cont-der #figura.rombo {
+    transform: rotate(45deg);
+    border-radius: 0;
+    background: #000000;
+}
+.container .row .cont-der #figura.rectangulo {
+    transform: rotate(0deg);
+    border-radius: 0;
+    width: 400px;
+    background: #2396bd;
+}
+
+.container .row .cont-der #figura.top{
+    transform: translateY(-50px);
+}
+.container .row .cont-der #figura.rigth{
+    transform: translatex(+50px);
+}
+.container .row .cont-der #figura.bottom{
+    transform: translatey(+50px);
+}
+.container .row .cont-der #figura.left{
+    transform: translatex(-50px);
+}
+.container .row .cont-der #figura.diagonal1{
+    transform: translate(+50px,-50px);
+}
+.container .row .cont-der #figura.diagonal2{
+    transform: translate(-50px,+50px);  
+}
+
+
+
+
