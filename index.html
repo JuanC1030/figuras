@@ -3,46 +3,39 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <title>Ejercicio JS</title>
-
+    <title>Figuras</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-    <header>
-        <div class="barsup">Fecha</div>
-        <div class="titu">
-            <h1>Ejercicios JavaScript</h1>
-        </div>
-        <nav>
-            <div class="menu">
-                <a href="#" class="href">Inicio</a>
-                <a href="#" class="href"> 2</a>
-                <a href="#" class="href">3</a>
+    <div class="container">
+        <div class="row">
+            <div class="cont-izq">
+                <h2>BOTONES</h2>
+
+                <div class="cont-botones">
+                    <button id="circulo" onclick="circuloFunction()">CIRCULO</button>
+                    <button id="rombo" onclick="romboFunction()">ROMBO</button>
+                    <button id="rectangulo" onclick="rectanguloFunction()">RECTÁNCULO</button>
+                    <button id="top" onclick="topFunction()">TOP</button>
+                    <button id="rigth" onclick="rigthFunction()">RIGTH</button>
+                    <button id="bottom" onclick="bottomFunction()">BOTTOM</button>
+                    <button id="left" onclick="leftFunction()">LEFT</button>
+                    <button id="diagonal1" onclick="diagonal1Function()">DIAGONAL SUPERIOR DERECHA</button>
+                    <button id="diagonal2" onclick="diagonal2Function()">DIAGONAL INFERIOR IZQUIERDA</button>
+                </div>
+                 
             </div>
-        </nav>
-    </header>
-    <section>
-        <div id="textico">
-        </div>  
-        <div class="suma">
-            <h2>Calculadora</h2>
-            <br>
-            <input type="number" id="v1" placeholder="ingrese un número">
-            <br>
-            <input type="number" id="v2" placeholder="ingrese otro número">
-            <br><br>
-            <input type="button"  value="calcular">
-           
-
+            <div class="cont-der">
+                <h2>FIGURA</h2>
+                <div id="figura"></div
+            </div>
         </div>
+    </div>
+   
 
-    </section>
-    <footer>
-        Todos los derechos reservados &copy; 2021. Desarrollado por Juan Sebastián Rodríguez Aranguren.
-    </footer>
-    <script type="text/javascript" src="js/codigo.js"></script>
+
+    <script src="js/main.js"></script>
 </body>
-
 </html>
