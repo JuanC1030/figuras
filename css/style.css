@@ -53,45 +53,53 @@ body {
     height: 200px;
     margin: 100px auto;
     transition: .4s;
-    background: #08526b;
+    background-image: url(https://static-cse.canva.com/blob/210834/38-texturas-gratuitas.png);
 }
 
 /*  Variantes de clases */
 .container .row .cont-der #figura.circulo {
     transition: .4s;
     border-radius: 50%;
-    background: red;
+    background-image: url(https://previews.123rf.com/images/eclecticcreations/eclecticcreations1709/eclecticcreations170900082/85310607-textura-de-pinturas-y-pasteles-org%C3%A1nicos-con-fascinantes-formas-org%C3%A1nicas-y-texturas-de-tejido-pegado-a-.jpg);
 }
 
 .container .row .cont-der #figura.rombo {
     transform: rotate(45deg);
     border-radius: 0;
-    background: #000000;
+    background-image: url(https://i.pinimg.com/736x/8a/54/6b/8a546bfecc01c605c6f1803b499ad98b.jpg);
+    
 }
 .container .row .cont-der #figura.rectangulo {
     transform: rotate(0deg);
     border-radius: 0;
     width: 400px;
-    background: #2396bd;
+    background-image: url(https://4.bp.blogspot.com/-0fSHHeI7CGA/WR3Ae9998NI/AAAAAAAAPa8/NtNMA9laOb0aOJ3RvFIE_xUlFggtNnVBwCLcB/s640/textura-metalica.jpg);
 }
 
 .container .row .cont-der #figura.top{
     transform: translateY(-50px);
+    background-image: url(https://laderasur.com/content/uploads/2016/04/Captura-de-pantalla-2016-04-03-a-las-21.52.28.png);
+    
 }
 .container .row .cont-der #figura.rigth{
     transform: translatex(+50px);
+    background-image: url( https://previews.123rf.com/images/lapandr/lapandr1703/lapandr170300346/73871205-el-tronco-y-la-corteza-de-un-%C3%A1rbol-adulto-fondo-textura.jpg);
 }
 .container .row .cont-der #figura.bottom{
     transform: translatey(+50px);
+    background-image: url(https://dbdzm869oupei.cloudfront.net/img/alfombretaratoli/preview/22000.png);
 }
 .container .row .cont-der #figura.left{
     transform: translatex(-50px);
+    background-image: url(https://i.pinimg.com/564x/62/81/f9/6281f900facaa4aa61dca0a4b7024e34.jpg);
 }
 .container .row .cont-der #figura.diagonal1{
     transform: translate(+50px,-50px);
+    background-image: url(https://veme.digital/wp-content/uploads/2020/07/texturas-.jpg);
 }
 .container .row .cont-der #figura.diagonal2{
-    transform: translate(-50px,+50px);  
+    transform: translate(-50px,+50px); 
+    background-image: url(https://image.freepik.com/foto-gratis/textura-chocolate-primer-plano-chocolate-liquido-chocolate-negro-texturizado_179068-115.jpg); 
 }
 
 
